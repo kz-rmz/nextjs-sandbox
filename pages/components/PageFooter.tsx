@@ -1,4 +1,4 @@
-export default () => {
+function PageFooter() {
   return (
     <footer>
       <ul className="footer__description">
@@ -29,4 +29,6 @@ export default () => {
       </style>
     </footer>
   );
-};
+}
+
+export default PageFooter;

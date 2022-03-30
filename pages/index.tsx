@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Navbar from "./components/Navbar";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Navbar from "./components/PageNavbar";
+import Main from "./components/PageMain";
+import Footer from "./components/PageFooter";
 
 export default function Home() {
   return (
@@ -9,7 +9,6 @@ export default function Home() {
       <Head>
         <title>Тудушник</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="style.css" />
       </Head>
       <Navbar />
       <Main />

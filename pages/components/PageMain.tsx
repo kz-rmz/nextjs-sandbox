@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default () => {
+function PageMain() {
   return (
     <main>
       <h1 className="title">
@@ -13,4 +13,6 @@ export default () => {
       <p className="description">Ваша продуктивность - наша забота!</p>
     </main>
   );
-};
+}
+
+export default PageMain;
